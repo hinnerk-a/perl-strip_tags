@@ -21,10 +21,10 @@ my $builder = Module::Build->new(
     # sign                => 1,
     create_license      => 1,
     create_readme       => 1,
-    homepage    => 'http://www.hinnerk-altenburg/perl-strip_tags/',
+    homepage    => 'http://www.hinnerk-altenburg.de/perl-strip_tags/',
     meta_add => {
         resources => {
-            homepage    => 'http://www.hinnerk-altenburg/perl-strip_tags/',
+            homepage    => 'http://www.hinnerk-altenburg.de/perl-strip_tags/',
             bugtracker  => 'http://github.com/hinnerk-a/perl-strip_tags/issues',
             repository  => 'http://github.com/hinnerk-a/perl-strip_tags',
         }

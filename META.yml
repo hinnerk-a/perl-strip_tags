@@ -18,9 +18,9 @@ name: HTML-StripTags
 provides:
   HTML::StripTags:
     file: lib/HTML/StripTags.pm
-    version: 1.00
+    version: 1.01
 resources:
   bugtracker: http://github.com/hinnerk-a/perl-strip_tags/issues
-  homepage: http://www.hinnerk-altenburg/perl-strip_tags/
+  homepage: http://www.hinnerk-altenburg.de/perl-strip_tags/
   repository: http://github.com/hinnerk-a/perl-strip_tags
-version: 1.00
+version: 1.01

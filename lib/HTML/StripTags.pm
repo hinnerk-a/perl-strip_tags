@@ -36,7 +36,7 @@ use Carp;
 use Exporter;
 use Switch 'fallthrough';
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw(strip_tags);
 
@@ -327,7 +327,7 @@ You can also look for information at:
 
 =item * HTML::StripTags Homepage
 
-L<http://www.hinnerk-altenburg/perl-strip_tags/>
+L<http://www.hinnerk-altenburg.de/perl-strip_tags/>
 
 =item * Code Repository on GitHub
 
