@@ -57,7 +57,7 @@ my $tests = {
     # 18 => false,
     # 19 => TRUE,
     # 20 => FALSE,
-    
+
     # empty data
     21 => "",
     22 => '',
