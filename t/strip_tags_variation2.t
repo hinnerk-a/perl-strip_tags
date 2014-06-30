@@ -70,11 +70,11 @@ my $tests = {
     # 18 => false,
     # 19 => TRUE,
     # 20 => FALSE,
-    
+
     # empty data
     21 => "",
     22 => '',
-    
+
     # DOES NOT APPLY TO PERL, in the PHP meaning of 'undeclared'
     # undefined data
     # 24 => \$undefined_var,
