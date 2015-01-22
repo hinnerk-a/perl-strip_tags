@@ -30,7 +30,7 @@ sub __toString {
 
 package main;
 
-my $tests = {
+my $testsNum = {
     # int data
      1 => 0,
      2 => 1,
@@ -44,6 +44,9 @@ my $tests = {
      8 => 10.7654321E-10,
      9 => .5,
 
+};
+
+my $tests = {
     # DOES NOT APPLY TO PERL
     # # null data
     # 15 => NULL,
@@ -88,6 +91,11 @@ my $results = {
     24 => '',
     25 => '',
 };
+
+#verify number only
+foreach my $test_number (sort {$a <=> $b} keys %$testsNum) {
+    cmp_ok(strip_tags($testsNum->{$test_number}, $testsNum->{$test_number}), '==', $results->{$test_number}); #tests number using compare
+}
 
 foreach my $test_number (sort {$a <=> $b} keys %$tests) {
     is (strip_tags($tests->{$test_number}, $tests->{$test_number}), $results->{$test_number}, "No. ".$test_number);
